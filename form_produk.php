@@ -1,21 +1,24 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Form Produk</title>
+    <title>Belanja</title>
 </head>
 <body>
+    <h2> Input Data Belanja </h2>
+    <form method="post" action="latihan4.1.php">
+        Nama Pembeli:
+        <input type="text" id="namaPembeli" name="namaPembeli"><br><br>
 
-<h2>Input Data Produk</h2>
+        Nama Barang:
+        <input type="text" id="namaBarang" name="namaBarang"><br><br>
 
-<form action="proses_produk.php" method="POST">
-    Nama Produk :
-    <input type="text" name="nama" required><br><br>
+        Harga Barang:
+        <input type="number" id="hargaBarang" name="hargaBarang"><br><br>
 
-    Harga :
-    <input type="number" name="harga" required><br><br>
+        Jumlah Barang:
+        <input type="number" id="jumlahBarang" name="jumlahBarang"><br><br>
 
-    <input type="submit" value="Simpan">
-</form>
+        Diskon (%):
+        <input type="number" id="diskon" name="diskon"><br><br>
 
-</body>
-</html>
+        <input type="submit" value="Proses">
+    </form>
